@@ -41,20 +41,20 @@
       <form name="whiskeyForm">
         <fieldset>
           <p>
-            <label for="name">Whiskey: </label>
-            <input type="text" id="name" placeholder="Whiskey Name" required />
+            <label for="name">Author: </label>
+            <input type="text" id="name" placeholder="Author Name" required />
           </p>
           <p>
-            <label for="country">Country of Origin: </label>
-            <input type="text" id="country" value="" required />
+            <label for="email">Email: </label>
+            <input type="text" id="email" value="" required />
           </p>
           <p>
-            <label for="age">Years Old: </label>
+            <label for="comment">Comment: </label>
             <input
               type="text"
               inputmode="numeric"
               pattern="[\d]+"
-              id="age"
+              id="comment"
               required
             />
           </p>
@@ -63,16 +63,16 @@
             <input type="checkbox" id="isOwned" value="yes" />
           </p>
           <p>
-            <button id="btnAdd">Add Whiskey</button>
-            <button id="btnUpdate">Update Whiskey</button>
-            <button id="btnDelete">Delete Whiskey</button>
+            <button id="btnAdd">Add Author</button>
+            <button id="btnUpdate">Update Author</button>
+            <button id="btnDelete">Delete Author</button>
             <button id="btnClear">Reset Form</button>
           </p>
         </fieldset>
       </form>
 
       <section>
-        <h3>List of Whiskeys</h3>
+        <h3>List of Author</h3>
         <ul class="wList">
           <!-- build list here -->
         </ul>
